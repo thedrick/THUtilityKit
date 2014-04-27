@@ -16,6 +16,9 @@
 		25F5A2CD190DB8B4006752F2 /* libTHUtilityKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F5A2B5190DB8B4006752F2 /* libTHUtilityKit.a */; };
 		25F5A2D3190DB8B4006752F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25F5A2D1190DB8B4006752F2 /* InfoPlist.strings */; };
 		25F5A2D5190DB8B4006752F2 /* THUtilityKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F5A2D4190DB8B4006752F2 /* THUtilityKitTests.m */; };
+		25F5A2E0190DB946006752F2 /* THDispatchUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F5A2DF190DB946006752F2 /* THDispatchUtility.m */; };
+		25F5A2E3190DBBAB006752F2 /* UIColor+THColorUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F5A2E2190DBBAB006752F2 /* UIColor+THColorUtility.m */; };
+		25F5A2E6190DC382006752F2 /* UIColor+THColorUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F5A2E2190DBBAB006752F2 /* UIColor+THColorUtility.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,10 @@
 		25F5A2D0190DB8B4006752F2 /* THUtilityKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "THUtilityKitTests-Info.plist"; sourceTree = "<group>"; };
 		25F5A2D2190DB8B4006752F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		25F5A2D4190DB8B4006752F2 /* THUtilityKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THUtilityKitTests.m; sourceTree = "<group>"; };
+		25F5A2DE190DB946006752F2 /* THDispatchUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THDispatchUtility.h; sourceTree = "<group>"; };
+		25F5A2DF190DB946006752F2 /* THDispatchUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THDispatchUtility.m; sourceTree = "<group>"; };
+		25F5A2E1190DBBAB006752F2 /* UIColor+THColorUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+THColorUtility.h"; sourceTree = "<group>"; };
+		25F5A2E2190DBBAB006752F2 /* UIColor+THColorUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+THColorUtility.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +119,10 @@
 			children = (
 				25F5A2BD190DB8B4006752F2 /* THUtilityKit.h */,
 				25F5A2BF190DB8B4006752F2 /* THUtilityKit.m */,
+				25F5A2E1190DBBAB006752F2 /* UIColor+THColorUtility.h */,
+				25F5A2E2190DBBAB006752F2 /* UIColor+THColorUtility.m */,
+				25F5A2DE190DB946006752F2 /* THDispatchUtility.h */,
+				25F5A2DF190DB946006752F2 /* THDispatchUtility.m */,
 				25F5A2BB190DB8B4006752F2 /* Supporting Files */,
 			);
 			path = THUtilityKit;
@@ -224,6 +235,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25F5A2E3190DBBAB006752F2 /* UIColor+THColorUtility.m in Sources */,
+				25F5A2E0190DB946006752F2 /* THDispatchUtility.m in Sources */,
 				25F5A2C0190DB8B4006752F2 /* THUtilityKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25F5A2E6190DC382006752F2 /* UIColor+THColorUtility.m in Sources */,
 				25F5A2D5190DB8B4006752F2 /* THUtilityKitTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -6,7 +6,8 @@
 //  Copyright (c) 2014 Tyler Hedrick. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "UIColor+THColorUtility.h"
+#import "THDispatchUtility.h"
 
 @interface THUtilityKit : NSObject
 
